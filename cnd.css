@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+body {
+  font-family: Microsoft YaHei, Arial, sans-serif;
+}
+
+/*默认secondary样式*/
+.el-button--secondary.is-active,
+.el-button--secondary:active {
+  background: #1118D4;
+  border-color: #1118D4;
+  color: #FFFFFF;
+}
+
+.el-button--secondary:focus,
+.el-button--secondary:hover {
+  background: rgba(101, 106, 237, 0.9) !important;
+  border-color: #656AED !important;
+  color: #FFFFFF !important;
+}
+
+.el-button--secondary {
+  background-color: #656AED !important;
+  border-color: #656AED !important;
+  color: #FFFFFF !important;
+}
+
+
+
+/*手风琴*/
+.el-collapse-item__header {
+  padding-left: 14px;
+}
+
+.el-collapse-item__content {
+  padding-left: 14px;
+  background-color: #F8FAFA;
+  padding-top: 14px;
+}
+
+.el-collapse-item__header.is-active {
+  background-color: #ddfafd;
+  color: #00acbb;
+  padding-left: 14px;
+}
+
+/*穿梭框*/
+.el-transfer__buttons {
+  width: 116px;
+}
+
+.el-transfer__buttons button:nth-child(2) {
+  margin-left: 0;
+}
+.el-transfer__buttons .el-button--medium{
+  padding: 6px 20px;
+}
+
+
+/*弹窗*/
+.el-dialog {
+  border-radius: 10px !important;
+}
+
+.el-dialog__header {
+  padding: 10px 10px 10px 20px !important;
+  background-color: #e8e8e8;
+  color: #00acbb !important;
+  border-radius: 10px 10px 0 0;
+}
+
+.el-dialog__headerbtn {
+  top: 10px !important;
+  right: 10px;
+
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  font-weight: bold;
+}
+
+
+.liteon-success {
+  padding: 0 !important;
+  display: block !important;
+  border-radius: 4px !important;
+  border: 0 !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important
+}
+
+.liteon-success .el-notification__closeBtn {
+  top: 10px;
+  right: 10px;
+}
+
+.liteon-success .el-notification__group {
+  margin: 0 ;
+}
+
+.liteon-success .el-notification__icon {
+  display: none !important
+}
+
+.liteon-success .el-notification__title {
+  background-color: #DEF8F0;
+  line-height: 40px;
+  min-height: 40px;
+  padding-left: 10px;
+  color: #6C7C7D;
+}
+
+.liteon-success .el-notification__content {
+  background-color: #25D09E !important;
+  color: #FFFFFF !important;
+  margin: 0 !important;
+  padding: 12px 10px;
+}
+
+
+
+.liteon-warning {
+  padding: 0 !important;
+  display: block !important;
+  border-radius: 4px !important;
+  border: 0 !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important
+}
+
+.liteon-warning .el-notification__closeBtn {
+  top: 10px;
+  right: 10px;
+}
+
+.liteon-warning .el-notification__group {
+  margin: 0 ;
+}
+
+.liteon-warning .el-notification__icon {
+  display: none !important
+}
+
+.liteon-warning .el-notification__title {
+  background-color: #FFF7E3;
+  line-height: 40px;
+  min-height: 40px;
+  padding-left: 10px;
+  color: #6C7C7D;
+}
+
+.liteon-warning .el-notification__content {
+  background-color: #FFCA42 !important;
+  color: #FFFFFF !important;
+  margin: 0 !important;
+  padding: 12px 10px;
+}
+
+
+
+
+.liteon-info {
+  padding: 0 !important;
+  display: block !important;
+  border-radius: 4px !important;
+  border: 0 !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important
+}
+
+.liteon-info .el-notification__closeBtn {
+  top: 10px;
+  right: 10px;
+}
+
+.liteon-info .el-notification__group {
+  margin: 0 ;
+}
+
+.liteon-info .el-notification__icon {
+  display: none !important
+}
+
+.liteon-info .el-notification__title {
+  background-color: #DEDEDF;
+  line-height: 40px;
+  min-height: 40px;
+  padding-left: 10px;
+  color: #6C7C7D;
+}
+
+.liteon-info .el-notification__content {
+  background-color: #212529 !important;
+  color: #FFFFFF !important;
+  margin: 0 !important;
+  padding: 12px 10px;
+}
+
+
+
+
+.liteon-error {
+  padding: 0 !important;
+  display: block !important;
+  border-radius: 4px !important;
+  border: 0 !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important
+}
+
+.liteon-error .el-notification__closeBtn {
+  top: 10px;
+  right: 10px;
+}
+
+.liteon-error .el-notification__group {
+  margin: 0 ;
+}
+
+.liteon-error .el-notification__icon {
+  display: none !important
+}
+
+.liteon-error .el-notification__title {
+  background-color: #FFE7EB;
+  line-height: 40px;
+  min-height: 40px;
+  padding-left: 10px;
+  color: #6C7C7D;
+}
+
+.liteon-error .el-notification__content {
+  background-color: #FF5C7A !important;
+  color: #FFFFFF !important;
+  margin: 0 !important;
+  padding: 12px 10px;
+}
